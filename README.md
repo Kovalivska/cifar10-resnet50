@@ -69,4 +69,3 @@ This project demonstrates how to classify CIFAR-10 images using **transfer learn
 - [ResNet50 - Keras Applications](https://keras.io/api/applications/resnet/)
 - [Kaggle Notebooks](https://www.kaggle.com/code/svitlanakovalivska/cifar10-on-resnet50-notebook-kovalivska)
 
--
