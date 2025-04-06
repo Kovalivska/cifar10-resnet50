@@ -3,7 +3,8 @@
 This project demonstrates how to classify CIFAR-10 images using **transfer learning** with a **pretrained ResNet50** model, fine-tuned on selectively trainable convolutional layers. The experiment was run entirely in a **Kaggle Notebook**.
 
 ---
-<img width="783" alt="image" src="https://github.com/user-attachments/assets/c803a6f4-064e-48c3-b91a-aefec8cdfa73" />
+<img width="790" alt="image" src="https://github.com/user-attachments/assets/887f8660-76c2-44a3-a893-b1e1a4a20d73" />
+
 
 
 ## 🔧 Key Features
