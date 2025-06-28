@@ -1,4 +1,4 @@
-# 🧠 CIFAR-10 Classification with ResNet50 (Kaggle Notebook)
+# CIFAR-10 Classification with ResNet50 (Kaggle Notebook)
 
 This project demonstrates how to classify CIFAR-10 images using **transfer learning** with a **pretrained ResNet50** model, fine-tuned on selectively trainable convolutional layers. The experiment was run entirely in a **Kaggle Notebook**.
 
@@ -7,7 +7,7 @@ This project demonstrates how to classify CIFAR-10 images using **transfer learn
 
 
 
-## 🔧 Key Features
+## Key Features
 
 - **Dataset**: CIFAR-10 (10 classes, 32×32 images)
 - **Base model**: ResNet50 (`include_top=False`, pretrained on ImageNet)
@@ -19,7 +19,7 @@ This project demonstrates how to classify CIFAR-10 images using **transfer learn
 
 ---
 
-## 📈 Final Performance
+## Final Performance
 
 | Metric            | Result     |
 |-------------------|------------|
@@ -34,7 +34,7 @@ This project demonstrates how to classify CIFAR-10 images using **transfer learn
 
 ---
 
-## 🧪 How It Works
+## How It Works
 
 1. **Preprocess images**: resize to 224×224 to match ResNet50 input
 2. **Apply augmentations** only to training set
@@ -46,7 +46,7 @@ This project demonstrates how to classify CIFAR-10 images using **transfer learn
 
 ---
 
-## ✅ Technologies Used
+## Technologies Used
 
 - Python 3 (Kaggle Notebook)
 - TensorFlow / Keras
@@ -56,14 +56,14 @@ This project demonstrates how to classify CIFAR-10 images using **transfer learn
 
 ---
 
-## 📦 Notes
+## Notes
 
 - The model was **not saved locally** due to Kaggle environment restrictions.
 - If needed, you can add `model.save('model.keras')` to export and download the final model manually.
 
 ---
 
-## 📚 References
+## References
 
 - [CIFAR-10 Dataset](https://www.cs.toronto.edu/~kriz/cifar.html)
 - [ResNet50 - Keras Applications](https://keras.io/api/applications/resnet/)
